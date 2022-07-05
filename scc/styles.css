@@ -357,7 +357,7 @@ section {
     color: var(--title-text-color);
 }
 .prof-team {
-    margin-bottom: 30px;
+    margin-bottom: 16px;
     
     font-size: 16px;
     line-height: 1.19;
@@ -365,7 +365,6 @@ section {
 .team-con {
     display: flex;
 
-    margin-top: 10px;
     margin-bottom: 30px;
     margin-left: 32px;
     margin-right: 32px;
@@ -465,7 +464,8 @@ section {
     margin-right: 70px;
 }
 .footer-adress {
-    display: flex;   
+    display: flex;
+    align-items: baseline;   
 }
 .footer-block {
     display: inline-block;
@@ -616,7 +616,11 @@ section {
     line-height: 1.88;
     color: var(--primary-text-color);
 }
-.card:hover ,
-.card:focus {
+
+.projects-link {
+    display:block;
+}
+.projects-link:hover ,
+.projects-link:focus {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
